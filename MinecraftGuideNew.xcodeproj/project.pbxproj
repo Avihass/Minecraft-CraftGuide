@@ -14,6 +14,8 @@
 		19F817A02110D6A300678125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F8179E2110D6A300678125 /* LaunchScreen.storyboard */; };
 		19F817AB2110D6A300678125 /* MinecraftGuideNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817AA2110D6A300678125 /* MinecraftGuideNewTests.swift */; };
 		19F817B62110D6A400678125 /* MinecraftGuideNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817B52110D6A400678125 /* MinecraftGuideNewUITests.swift */; };
+		19F817C82110D86C00678125 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F817C72110D86C00678125 /* Default-568h@2x.png */; };
+		19F817CA2110E1B600678125 /* ShadowedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817C92110E1B600678125 /* ShadowedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		19F817B12110D6A400678125 /* MinecraftGuideNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinecraftGuideNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F817B52110D6A400678125 /* MinecraftGuideNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinecraftGuideNewUITests.swift; sourceTree = "<group>"; };
 		19F817B72110D6A400678125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F817C72110D86C00678125 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		19F817C92110E1B600678125 /* ShadowedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShadowedButton.swift; path = MinecraftGuideNew/ShadowedButton.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				19F817952110D6A200678125 /* AppDelegate.swift */,
-				19F817972110D6A200678125 /* ViewController.swift */,
-				19F817992110D6A200678125 /* Main.storyboard */,
-				19F8179C2110D6A300678125 /* Assets.xcassets */,
-				19F8179E2110D6A300678125 /* LaunchScreen.storyboard */,
-				19F817A12110D6A300678125 /* Info.plist */,
+				19F817C52110D74600678125 /* Controllers */,
+				19F817C42110D73400678125 /* Views */,
+				19F817C62110D7A800678125 /* Supports */,
 			);
 			path = MinecraftGuideNew;
 			sourceTree = "<group>";
@@ -123,6 +125,34 @@
 				19F817B72110D6A400678125 /* Info.plist */,
 			);
 			path = MinecraftGuideNewUITests;
+			sourceTree = "<group>";
+		};
+		19F817C42110D73400678125 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19F817C92110E1B600678125 /* ShadowedButton.swift */,
+				19F817992110D6A200678125 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19F817C52110D74600678125 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19F817972110D6A200678125 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		19F817C62110D7A800678125 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				19F8179C2110D6A300678125 /* Assets.xcassets */,
+				19F8179E2110D6A300678125 /* LaunchScreen.storyboard */,
+				19F817A12110D6A300678125 /* Info.plist */,
+				19F817C72110D86C00678125 /* Default-568h@2x.png */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F817A02110D6A300678125 /* LaunchScreen.storyboard in Resources */,
+				19F817C82110D86C00678125 /* Default-568h@2x.png in Resources */,
 				19F8179D2110D6A300678125 /* Assets.xcassets in Resources */,
 				19F8179B2110D6A200678125 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F817CA2110E1B600678125 /* ShadowedButton.swift in Sources */,
 				19F817982110D6A200678125 /* ViewController.swift in Sources */,
 				19F817962110D6A200678125 /* AppDelegate.swift in Sources */,
 			);
@@ -432,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VT7HQYML5H;
-				INFOPLIST_FILE = MinecraftGuideNew/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MinecraftGuideNew/Supports/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VT7HQYML5H;
-				INFOPLIST_FILE = MinecraftGuideNew/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MinecraftGuideNew/Supports/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
