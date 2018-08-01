@@ -57,12 +57,57 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="0.0" height="3"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dmj-cf-ANd">
+                                <rect key="frame" x="0.0" y="186" width="375" height="461"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3I-lp-Q8i" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
+                                        <rect key="frame" x="52.5" y="170.5" width="270" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="6Di-Mr-WxN"/>
+                                            <constraint firstAttribute="width" constant="270" id="DcI-qj-0Cg"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="capture-homeButtons.backround"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIC-yR-OVx" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
+                                        <rect key="frame" x="52" y="0.0" width="270" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="MGN-s4-K3D"/>
+                                            <constraint firstAttribute="width" constant="270" id="cWK-jf-H0f"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="capture-homeButtons.backround"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJ2-SO-K7b" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
+                                        <rect key="frame" x="52" y="341" width="270" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="6ia-aN-n01"/>
+                                            <constraint firstAttribute="width" constant="270" id="Wkq-eb-EcZ"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="capture-homeButtons.backround"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="oJ2-SO-K7b" firstAttribute="top" relation="lessThanOrEqual" secondItem="X3I-lp-Q8i" secondAttribute="bottom" constant="70" id="2sy-AF-Bup"/>
+                                    <constraint firstItem="oJ2-SO-K7b" firstAttribute="centerX" secondItem="Dmj-cf-ANd" secondAttribute="centerX" id="38C-g1-hxH"/>
+                                    <constraint firstItem="X3I-lp-Q8i" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iIC-yR-OVx" secondAttribute="bottom" constant="8" id="LgV-56-H9a"/>
+                                    <constraint firstItem="X3I-lp-Q8i" firstAttribute="top" relation="lessThanOrEqual" secondItem="iIC-yR-OVx" secondAttribute="bottom" constant="70" id="U0n-oz-eSw"/>
+                                    <constraint firstItem="X3I-lp-Q8i" firstAttribute="centerY" secondItem="Dmj-cf-ANd" secondAttribute="centerY" id="YN4-Gr-ZLP"/>
+                                    <constraint firstItem="iIC-yR-OVx" firstAttribute="top" secondItem="Dmj-cf-ANd" secondAttribute="top" priority="250" id="kBP-pr-Tcn"/>
+                                    <constraint firstItem="X3I-lp-Q8i" firstAttribute="centerX" secondItem="Dmj-cf-ANd" secondAttribute="centerX" id="nDi-Vf-IFd"/>
+                                    <constraint firstAttribute="bottom" secondItem="oJ2-SO-K7b" secondAttribute="bottom" priority="250" id="nQz-jx-mpd"/>
+                                    <constraint firstItem="oJ2-SO-K7b" firstAttribute="top" relation="greaterThanOrEqual" secondItem="X3I-lp-Q8i" secondAttribute="bottom" constant="8" id="qvk-Bq-IvM"/>
+                                    <constraint firstItem="iIC-yR-OVx" firstAttribute="centerX" secondItem="Dmj-cf-ANd" secondAttribute="centerX" id="rkP-t1-b2M"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="X89-wV-I3Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="4Uw-PB-zte"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Dmj-cf-ANd" secondAttribute="bottom" constant="20" id="8VH-jq-2dK"/>
+                            <constraint firstItem="Dmj-cf-ANd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8xh-FJ-npL"/>
+                            <constraint firstItem="Dmj-cf-ANd" firstAttribute="top" secondItem="Aa8-Ft-eEn" secondAttribute="bottom" constant="8" id="JAq-gk-OwF"/>
                             <constraint firstAttribute="trailing" secondItem="oxM-Rd-xkG" secondAttribute="trailing" id="NTT-87-YuX"/>
                             <constraint firstItem="Aa8-Ft-eEn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RMd-5g-JOv"/>
+                            <constraint firstItem="Dmj-cf-ANd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Rx8-Vu-wDp"/>
                             <constraint firstItem="oxM-Rd-xkG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="S3D-nw-zw9"/>
                             <constraint firstItem="Aa8-Ft-eEn" firstAttribute="top" secondItem="X89-wV-I3Q" secondAttribute="bottom" constant="5" id="SLZ-pb-hUT"/>
                             <constraint firstItem="X89-wV-I3Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VUS-Mo-kW7"/>
@@ -80,6 +125,7 @@
     </scenes>
     <resources>
         <image name="backround" width="375" height="667"/>
+        <image name="capture-homeButtons.backround" width="270" height="120"/>
         <image name="minecraftTitle" width="334" height="58"/>
     </resources>
 </document>
