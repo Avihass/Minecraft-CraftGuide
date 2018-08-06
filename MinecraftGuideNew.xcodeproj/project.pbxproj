@@ -15,9 +15,9 @@
 		19F817AB2110D6A300678125 /* MinecraftGuideNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817AA2110D6A300678125 /* MinecraftGuideNewTests.swift */; };
 		19F817B62110D6A400678125 /* MinecraftGuideNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817B52110D6A400678125 /* MinecraftGuideNewUITests.swift */; };
 		19F817C82110D86C00678125 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F817C72110D86C00678125 /* Default-568h@2x.png */; };
-		19F817CA2110E1B600678125 /* ShadowedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817C92110E1B600678125 /* ShadowedButton.swift */; };
 		19F817CC21121CB800678125 /* labelOnButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F817CB21121CB800678125 /* labelOnButton.xib */; };
-		19F817CE211223F700678125 /* ShadowedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817CD211223F700678125 /* ShadowedImageView.swift */; };
+		19F817D0211229E400678125 /* ShadowedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817CF211229E400678125 /* ShadowedButton.swift */; };
+		19F817D2211229F100678125 /* ShadowedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817D1211229F100678125 /* ShadowedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		19F817B52110D6A400678125 /* MinecraftGuideNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinecraftGuideNewUITests.swift; sourceTree = "<group>"; };
 		19F817B72110D6A400678125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19F817C72110D86C00678125 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		19F817C92110E1B600678125 /* ShadowedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShadowedButton.swift; path = MinecraftGuideNew/ShadowedButton.swift; sourceTree = SOURCE_ROOT; };
 		19F817CB21121CB800678125 /* labelOnButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = labelOnButton.xib; sourceTree = "<group>"; };
-		19F817CD211223F700678125 /* ShadowedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShadowedImageView.swift; path = MinecraftGuideNew/ShadowedImageView.swift; sourceTree = SOURCE_ROOT; };
+		19F817CF211229E400678125 /* ShadowedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedButton.swift; sourceTree = "<group>"; };
+		19F817D1211229F100678125 /* ShadowedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +134,8 @@
 		19F817C42110D73400678125 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				19F817C92110E1B600678125 /* ShadowedButton.swift */,
-				19F817CD211223F700678125 /* ShadowedImageView.swift */,
+				19F817CF211229E400678125 /* ShadowedButton.swift */,
+				19F817D1211229F100678125 /* ShadowedImageView.swift */,
 				19F817992110D6A200678125 /* Main.storyboard */,
 				19F817CB21121CB800678125 /* labelOnButton.xib */,
 			);
@@ -294,10 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F817CA2110E1B600678125 /* ShadowedButton.swift in Sources */,
+				19F817D0211229E400678125 /* ShadowedButton.swift in Sources */,
 				19F817982110D6A200678125 /* ViewController.swift in Sources */,
 				19F817962110D6A200678125 /* AppDelegate.swift in Sources */,
-				19F817CE211223F700678125 /* ShadowedImageView.swift in Sources */,
+				19F817D2211229F100678125 /* ShadowedImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
