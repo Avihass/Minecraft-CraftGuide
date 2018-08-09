@@ -67,6 +67,9 @@
                                             <constraint firstAttribute="width" constant="270" id="DcI-qj-0Cg"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="capture-homeButtons.backround"/>
+                                        <connections>
+                                            <segue destination="U48-9Z-2BH" kind="show" id="TmO-EV-EfH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIC-yR-OVx" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
                                         <rect key="frame" x="52" y="0.0" width="270" height="120"/>
@@ -184,6 +187,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-647.20000000000005" y="1.3493253373313345"/>
+        </scene>
+        <!--Smelting-->
+        <scene sceneID="GpW-dQ-bSe">
+            <objects>
+                <viewController title="Smelting" id="U48-9Z-2BH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YrV-Y2-wKU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backround" translatesAutoresizingMaskIntoConstraints="NO" id="Jfa-eT-h5r">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smeltingRoast" translatesAutoresizingMaskIntoConstraints="NO" id="qse-TY-3b3">
+                                <rect key="frame" x="13" y="72" width="349" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qse-TY-3b3" secondAttribute="height" multiplier="349:180" id="beu-VJ-XwD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qse-TY-3b3" firstAttribute="leading" secondItem="j78-rU-lZY" secondAttribute="leading" constant="13" id="2Ch-Sj-QDz"/>
+                            <constraint firstItem="Jfa-eT-h5r" firstAttribute="top" secondItem="YrV-Y2-wKU" secondAttribute="top" id="7Or-N8-jCQ"/>
+                            <constraint firstItem="qse-TY-3b3" firstAttribute="top" secondItem="j78-rU-lZY" secondAttribute="top" constant="8" id="A0f-hi-oW1"/>
+                            <constraint firstAttribute="bottom" secondItem="Jfa-eT-h5r" secondAttribute="bottom" id="Cmy-hI-P7r"/>
+                            <constraint firstItem="Jfa-eT-h5r" firstAttribute="leading" secondItem="YrV-Y2-wKU" secondAttribute="leading" id="JdY-2y-zu5"/>
+                            <constraint firstAttribute="trailing" secondItem="Jfa-eT-h5r" secondAttribute="trailing" id="Tkl-XD-ez0"/>
+                            <constraint firstItem="j78-rU-lZY" firstAttribute="trailing" secondItem="qse-TY-3b3" secondAttribute="trailing" constant="13" id="wFc-r3-gZX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="j78-rU-lZY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ivc-b8-v7C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="770.46476761619192"/>
         </scene>
         <!--Crafting-->
         <scene sceneID="t6S-6K-m0l">
@@ -705,15 +743,15 @@
                         <constraints>
                             <constraint firstItem="8on-Ue-C8c" firstAttribute="leading" secondItem="uMP-Qg-Ea7" secondAttribute="leading" constant="13" id="1hh-Ht-05K"/>
                             <constraint firstItem="b7C-KF-e6U" firstAttribute="bottom" secondItem="8on-Ue-C8c" secondAttribute="bottom" constant="-3" id="52m-Sh-4Iu"/>
-                            <constraint firstItem="FdL-xU-DXY" firstAttribute="bottom" secondItem="uMP-Qg-Ea7" secondAttribute="bottom" id="5JK-ay-auX"/>
                             <constraint firstItem="b7C-KF-e6U" firstAttribute="top" secondItem="8on-Ue-C8c" secondAttribute="top" constant="3" id="7W4-l2-5co"/>
                             <constraint firstItem="muX-5e-3oP" firstAttribute="top" secondItem="8on-Ue-C8c" secondAttribute="bottom" constant="8" id="Chl-j0-dae"/>
+                            <constraint firstItem="FdL-xU-DXY" firstAttribute="leading" secondItem="lF1-wj-HC0" secondAttribute="leading" id="ML8-dR-Yax"/>
+                            <constraint firstAttribute="bottom" secondItem="FdL-xU-DXY" secondAttribute="bottom" id="O9e-RA-coe"/>
                             <constraint firstAttribute="trailing" secondItem="muX-5e-3oP" secondAttribute="trailing" id="SOn-BI-6Gs"/>
                             <constraint firstItem="8on-Ue-C8c" firstAttribute="centerX" secondItem="lF1-wj-HC0" secondAttribute="centerX" id="VvV-YQ-YZJ"/>
                             <constraint firstItem="muX-5e-3oP" firstAttribute="top" secondItem="G59-ob-wtQ" secondAttribute="bottom" constant="8" id="Y0D-2N-ndo"/>
-                            <constraint firstItem="FdL-xU-DXY" firstAttribute="leading" secondItem="uMP-Qg-Ea7" secondAttribute="leading" id="Ymh-83-gGD"/>
                             <constraint firstItem="8on-Ue-C8c" firstAttribute="top" secondItem="uMP-Qg-Ea7" secondAttribute="top" constant="8" id="aLl-R1-1wN"/>
-                            <constraint firstItem="FdL-xU-DXY" firstAttribute="trailing" secondItem="uMP-Qg-Ea7" secondAttribute="trailing" id="d6b-Rk-vNE"/>
+                            <constraint firstAttribute="trailing" secondItem="FdL-xU-DXY" secondAttribute="trailing" id="cxD-Cu-qNr"/>
                             <constraint firstItem="FdL-xU-DXY" firstAttribute="top" secondItem="lF1-wj-HC0" secondAttribute="top" id="e5U-yH-tGV"/>
                             <constraint firstItem="G59-ob-wtQ" firstAttribute="top" secondItem="uMP-Qg-Ea7" secondAttribute="top" constant="8" id="e7I-R3-jPY"/>
                             <constraint firstItem="b7C-KF-e6U" firstAttribute="leading" secondItem="8on-Ue-C8c" secondAttribute="leading" constant="3" id="fL7-9w-7Ug"/>
@@ -730,7 +768,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ajj-2P-5E4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129" y="924"/>
+            <point key="canvasLocation" x="129" y="922"/>
         </scene>
     </scenes>
     <resources>
@@ -757,5 +795,6 @@
         <image name="itm.painting" width="48" height="48"/>
         <image name="itm.sign" width="48" height="48"/>
         <image name="minecraftTitle" width="334" height="58"/>
+        <image name="smeltingRoast" width="349" height="180"/>
     </resources>
 </document>
