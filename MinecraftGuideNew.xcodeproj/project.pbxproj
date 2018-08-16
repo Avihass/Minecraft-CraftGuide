@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		199B5EB82125A8D2007D1BB8 /* Smelting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199B5EB72125A8D2007D1BB8 /* Smelting.swift */; };
 		19F817962110D6A200678125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817952110D6A200678125 /* AppDelegate.swift */; };
 		19F817982110D6A200678125 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817972110D6A200678125 /* HomeController.swift */; };
 		19F8179B2110D6A200678125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F817992110D6A200678125 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		199B5EB72125A8D2007D1BB8 /* Smelting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smelting.swift; sourceTree = "<group>"; };
 		19F817922110D6A200678125 /* MinecraftGuideNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinecraftGuideNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F817952110D6A200678125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19F817972110D6A200678125 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				19F817972110D6A200678125 /* HomeController.swift */,
 				19FEBDC52120ADB100A6D441 /* Crafting.swift */,
+				199B5EB72125A8D2007D1BB8 /* Smelting.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				199B5EB82125A8D2007D1BB8 /* Smelting.swift in Sources */,
 				19F817D0211229E400678125 /* ShadowedButton.swift in Sources */,
 				19F817982110D6A200678125 /* HomeController.swift in Sources */,
 				19F817962110D6A200678125 /* AppDelegate.swift in Sources */,
