@@ -697,13 +697,6 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baked Potato" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tT-r0-PU1">
-                                                <rect key="frame" x="139" y="381" width="96" height="17"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMN-nm-EuV" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
                                                 <rect key="frame" x="271" y="302" width="96" height="96"/>
                                                 <constraints>
@@ -727,6 +720,13 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.bakedPotato"/>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baked Potato" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tT-r0-PU1">
+                                                <rect key="frame" x="139" y="381" width="96" height="17"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="gx6-ak-kja" firstAttribute="bottom" secondItem="yPS-V8-TTE" secondAttribute="bottom" id="08Z-OL-e8a"/>
@@ -1345,19 +1345,19 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OfP-VS-tzM">
                                         <rect key="frame" x="0.0" y="54" width="156" height="48"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="wJb-E2-gEB">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="wJb-E2-gEB">
                                                 <rect key="frame" x="108" y="0.0" width="48" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="wJb-E2-gEB" secondAttribute="height" multiplier="1:1" id="Qz1-au-17G"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="c3X-mi-wrT">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="c3X-mi-wrT">
                                                 <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="c3X-mi-wrT" secondAttribute="height" multiplier="1:1" id="W7b-0M-5n9"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="678-Ng-Xgu">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="678-Ng-Xgu">
                                                 <rect key="frame" x="54" y="0.0" width="48" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="678-Ng-Xgu" secondAttribute="height" multiplier="1:1" id="gAy-Qb-tZz"/>
@@ -1381,19 +1381,19 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdy-Wr-6dj">
                                         <rect key="frame" x="0.0" y="108" width="156" height="48"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="I5r-6P-74t">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="I5r-6P-74t">
                                                 <rect key="frame" x="54" y="0.0" width="48" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="I5r-6P-74t" secondAttribute="height" multiplier="1:1" id="92o-Yr-GBI"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="EF5-rN-QQd">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="EF5-rN-QQd">
                                                 <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="EF5-rN-QQd" secondAttribute="height" multiplier="1:1" id="Wgg-Y4-Obi"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="LsW-KK-9sA">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="LsW-KK-9sA">
                                                 <rect key="frame" x="108" y="0.0" width="48" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="LsW-KK-9sA" secondAttribute="height" multiplier="1:1" id="PMW-eO-jjP"/>
@@ -1417,19 +1417,19 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zJu-cb-iYn">
                                         <rect key="frame" x="0.0" y="0.0" width="156" height="48"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="kdN-9g-8LZ">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="kdN-9g-8LZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="kdN-9g-8LZ" secondAttribute="height" multiplier="1:1" id="w5T-cl-5D4"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="W9M-gi-K3q">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="W9M-gi-K3q">
                                                 <rect key="frame" x="108" y="0.0" width="48" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="W9M-gi-K3q" secondAttribute="height" multiplier="1:1" id="phE-vJ-NA5"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="a6c-YP-gBf">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="a6c-YP-gBf">
                                                 <rect key="frame" x="54" y="0.0" width="48" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="a6c-YP-gBf" secondAttribute="height" multiplier="1:1" id="JEP-Is-JPF"/>
@@ -1467,7 +1467,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G59-ob-wtQ">
                                 <rect key="frame" x="287" y="72" width="72" height="162"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itm.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="ICy-pb-s1T">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="ICy-pb-s1T">
                                         <rect key="frame" x="0.0" y="45" width="72" height="72"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ICy-pb-s1T" secondAttribute="height" multiplier="1:1" id="tJJ-Go-Fo9"/>
@@ -1527,6 +1527,7 @@
     </scenes>
     <resources>
         <image name="backround" width="375" height="667"/>
+        <image name="blc.oakWoodPlanks" width="144" height="144"/>
         <image name="brewing4home" width="150" height="150"/>
         <image name="capture-bloc.craft" width="203" height="216"/>
         <image name="capture-bloc.furnace" width="176" height="184"/>
@@ -1541,20 +1542,19 @@
         <image name="food.cookedSalmon" width="144" height="144"/>
         <image name="food.driedKelp" width="144" height="144"/>
         <image name="food.steak" width="144" height="144"/>
-        <image name="itm.anvil" width="48" height="48"/>
+        <image name="itm.anvil" width="144" height="144"/>
         <image name="itm.armorStand" width="48" height="48"/>
-        <image name="itm.bed" width="48" height="48"/>
-        <image name="itm.bookshelf" width="48" height="48"/>
+        <image name="itm.bed" width="144" height="144"/>
+        <image name="itm.bookshelf" width="144" height="144"/>
         <image name="itm.brewingStand" width="48" height="48"/>
         <image name="itm.cauldron" width="48" height="48"/>
-        <image name="itm.chest" width="48" height="48"/>
-        <image name="itm.craftingTable" width="48" height="48"/>
-        <image name="itm.enchantmentTable" width="48" height="48"/>
-        <image name="itm.enderChest" width="48" height="48"/>
-        <image name="itm.furnace" width="48" height="48"/>
+        <image name="itm.chest" width="144" height="144"/>
+        <image name="itm.craftingTable" width="144" height="144"/>
+        <image name="itm.enchantmentTable" width="144" height="144"/>
+        <image name="itm.enderChest" width="144" height="144"/>
+        <image name="itm.furnace" width="144" height="144"/>
         <image name="itm.itemFrame" width="48" height="48"/>
-        <image name="itm.jukeBox" width="48" height="48"/>
-        <image name="itm.oakWoodPlanks" width="48" height="48"/>
+        <image name="itm.jukeBox" width="144" height="144"/>
         <image name="itm.painting" width="48" height="48"/>
         <image name="itm.sign" width="48" height="48"/>
         <image name="minecraftTitle" width="334" height="58"/>
