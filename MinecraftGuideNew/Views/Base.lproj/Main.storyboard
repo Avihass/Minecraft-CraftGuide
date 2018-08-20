@@ -191,7 +191,7 @@
         <!--Smelting-->
         <scene sceneID="GpW-dQ-bSe">
             <objects>
-                <viewController title="Smelting" id="U48-9Z-2BH" sceneMemberID="viewController">
+                <viewController title="Smelting" id="U48-9Z-2BH" customClass="Smelting" customModule="MinecraftGuideNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YrV-Y2-wKU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1741"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -578,6 +578,9 @@
                                                     <constraint firstAttribute="width" secondItem="QU9-cA-S6o" secondAttribute="height" multiplier="1:1" id="QFl-4b-SaI"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.steak"/>
+                                                <connections>
+                                                    <action selector="pushOnSteak:" destination="U48-9Z-2BH" eventType="touchUpInside" id="O2n-gS-3Ey"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steak" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2J-Ez-78P">
                                                 <rect key="frame" x="8" y="119" width="96" height="17"/>
@@ -593,6 +596,9 @@
                                                     <constraint firstAttribute="width" constant="96" id="re5-X2-qMG"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.cookedPorkchop"/>
+                                                <connections>
+                                                    <action selector="pushOnCookedPorkchop:" destination="U48-9Z-2BH" eventType="touchUpInside" id="BAX-zf-pW9"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked Porkchop" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPc-09-7P2">
                                                 <rect key="frame" x="139" y="102.5" width="96" height="33.5"/>
@@ -608,6 +614,9 @@
                                                     <constraint firstAttribute="width" constant="96" id="VA8-sD-he8"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.cookedMutton"/>
+                                                <connections>
+                                                    <action selector="pushOnCookedMutton:" destination="U48-9Z-2BH" eventType="touchUpInside" id="nfJ-PN-FGY"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked Mutton" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kce-PA-mJB">
                                                 <rect key="frame" x="271" y="102.5" width="96" height="33.5"/>
@@ -623,6 +632,9 @@
                                                     <constraint firstAttribute="width" constant="96" id="mZi-kB-lD8"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.cookedChicken"/>
+                                                <connections>
+                                                    <action selector="pushOnCookedChicken:" destination="U48-9Z-2BH" eventType="touchUpInside" id="3sq-zo-uUV"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked Chicken" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoX-S9-rls">
                                                 <rect key="frame" x="8" y="233.5" width="96" height="33.5"/>
@@ -645,6 +657,9 @@
                                                     <constraint firstAttribute="width" constant="96" id="vAZ-X4-BNF"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.cookedCod"/>
+                                                <connections>
+                                                    <action selector="pushOnCookedCod:" destination="U48-9Z-2BH" eventType="touchUpInside" id="cxP-8l-pEy"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked Cod" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07C-vx-3ga">
                                                 <rect key="frame" x="271" y="250" width="96" height="17"/>
@@ -660,6 +675,9 @@
                                                     <constraint firstAttribute="width" secondItem="iyY-eA-sFD" secondAttribute="height" multiplier="1:1" id="jAo-wQ-AeJ"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.cookedRabbit"/>
+                                                <connections>
+                                                    <action selector="pushOnCookedRabbit:" destination="U48-9Z-2BH" eventType="touchUpInside" id="z3h-23-Kn0"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked  Rabbit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5K2-Fa-cCf">
                                                 <rect key="frame" x="139" y="233.5" width="96" height="33.5"/>
@@ -689,6 +707,9 @@
                                                     <constraint firstAttribute="width" secondItem="aNF-NO-wdH" secondAttribute="height" multiplier="1:1" id="ddA-5A-9Nm"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.cookedSalmon"/>
+                                                <connections>
+                                                    <action selector="pushOnCookedSalmon:" destination="U48-9Z-2BH" eventType="touchUpInside" id="n0I-v3-fGF"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked Salmon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cw-5T-Jde">
                                                 <rect key="frame" x="8" y="364.5" width="96" height="33.5"/>
@@ -704,6 +725,9 @@
                                                     <constraint firstAttribute="width" constant="96" id="aaI-Mc-UPX"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.driedKelp"/>
+                                                <connections>
+                                                    <action selector="pushOnDriedKelp:" destination="U48-9Z-2BH" eventType="touchUpInside" id="H23-Cd-vJK"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dried Kelp" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06E-Gu-9hf">
                                                 <rect key="frame" x="271" y="381" width="96" height="17"/>
@@ -719,6 +743,9 @@
                                                     <constraint firstAttribute="width" constant="96" id="kGu-EH-rbn"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="food.bakedPotato"/>
+                                                <connections>
+                                                    <action selector="pushOnBakedPotato:" destination="U48-9Z-2BH" eventType="touchUpInside" id="SSD-gl-0MX"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baked Potato" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tT-r0-PU1">
                                                 <rect key="frame" x="139" y="381" width="96" height="17"/>
@@ -939,17 +966,43 @@
                                     <constraint firstItem="CXm-uV-Hjz" firstAttribute="leading" secondItem="udg-bT-kXf" secondAttribute="leading" id="zMp-33-NDy"/>
                                 </constraints>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87D-T5-VQB">
+                                <rect key="frame" x="13" y="72" width="114" height="180"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="bnw-CW-5Ud">
+                                        <rect key="frame" x="66" y="12" width="48" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JjJ-7T-NeK">
+                                <rect key="frame" x="247" y="72" width="115" height="180"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blc.oakWoodPlanks" translatesAutoresizingMaskIntoConstraints="NO" id="i9j-4N-xF7">
+                                        <rect key="frame" x="0.0" y="54" width="72" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="qse-TY-3b3" firstAttribute="leading" secondItem="j78-rU-lZY" secondAttribute="leading" constant="13" id="2Ch-Sj-QDz"/>
+                            <constraint firstItem="JjJ-7T-NeK" firstAttribute="width" secondItem="qse-TY-3b3" secondAttribute="height" multiplier="23:36" id="4uy-dO-ozt"/>
                             <constraint firstItem="Jfa-eT-h5r" firstAttribute="top" secondItem="YrV-Y2-wKU" secondAttribute="top" id="7Or-N8-jCQ"/>
                             <constraint firstItem="qse-TY-3b3" firstAttribute="top" secondItem="j78-rU-lZY" secondAttribute="top" constant="8" id="A0f-hi-oW1"/>
                             <constraint firstAttribute="bottom" secondItem="Jfa-eT-h5r" secondAttribute="bottom" id="Cmy-hI-P7r"/>
+                            <constraint firstItem="qse-TY-3b3" firstAttribute="top" secondItem="87D-T5-VQB" secondAttribute="top" id="GOE-ck-0sz"/>
+                            <constraint firstItem="udg-bT-kXf" firstAttribute="top" secondItem="87D-T5-VQB" secondAttribute="bottom" constant="8" id="HvP-OP-2qs"/>
+                            <constraint firstItem="87D-T5-VQB" firstAttribute="width" secondItem="qse-TY-3b3" secondAttribute="height" multiplier="19:30" id="IBO-xr-p5f"/>
                             <constraint firstItem="Jfa-eT-h5r" firstAttribute="leading" secondItem="YrV-Y2-wKU" secondAttribute="leading" id="JdY-2y-zu5"/>
                             <constraint firstAttribute="trailing" secondItem="udg-bT-kXf" secondAttribute="trailing" id="Kc0-Bk-qiP"/>
+                            <constraint firstItem="JjJ-7T-NeK" firstAttribute="trailing" secondItem="qse-TY-3b3" secondAttribute="trailing" id="OSA-JY-G9T"/>
                             <constraint firstItem="udg-bT-kXf" firstAttribute="leading" secondItem="YrV-Y2-wKU" secondAttribute="leading" id="T2b-i4-UU8"/>
                             <constraint firstAttribute="trailing" secondItem="Jfa-eT-h5r" secondAttribute="trailing" id="Tkl-XD-ez0"/>
+                            <constraint firstItem="JjJ-7T-NeK" firstAttribute="top" secondItem="qse-TY-3b3" secondAttribute="top" id="UVh-WQ-hLA"/>
+                            <constraint firstItem="JjJ-7T-NeK" firstAttribute="bottom" secondItem="qse-TY-3b3" secondAttribute="bottom" id="VxY-L4-fer"/>
+                            <constraint firstItem="qse-TY-3b3" firstAttribute="leading" secondItem="87D-T5-VQB" secondAttribute="leading" id="Z0z-gf-8nM"/>
                             <constraint firstAttribute="bottom" secondItem="udg-bT-kXf" secondAttribute="bottom" id="bgy-qU-2rO"/>
                             <constraint firstItem="udg-bT-kXf" firstAttribute="top" secondItem="qse-TY-3b3" secondAttribute="bottom" constant="8" id="fh5-wR-sVB"/>
                             <constraint firstItem="j78-rU-lZY" firstAttribute="trailing" secondItem="qse-TY-3b3" secondAttribute="trailing" constant="13" id="wFc-r3-gZX"/>
@@ -957,10 +1010,14 @@
                         <viewLayoutGuide key="safeArea" id="j78-rU-lZY"/>
                     </view>
                     <size key="freeformSize" width="375" height="1741"/>
+                    <connections>
+                        <outlet property="roastImg" destination="bnw-CW-5Ud" id="jQg-6t-WE2"/>
+                        <outlet property="roastImgBig" destination="i9j-4N-xF7" id="cG0-qM-Tny"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ivc-b8-v7C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="865" y="1254"/>
+            <point key="canvasLocation" x="864.79999999999995" y="1253.5232383808097"/>
         </scene>
         <!--Crafting-->
         <scene sceneID="t6S-6K-m0l">

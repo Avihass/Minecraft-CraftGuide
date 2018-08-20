@@ -53,9 +53,9 @@ class Crafting: UIViewController {
         reinitializeRoast()
         
         roastImgBig.image = #imageLiteral(resourceName: "itm.anvil") //itm.anvil
-        roastImg1.image = #imageLiteral(resourceName: "itm.blockOfIron") //itm.blockOfIron
-        roastImg2.image = #imageLiteral(resourceName: "itm.blockOfIron") //itm.blockOfIron
-        roastImg3.image = #imageLiteral(resourceName: "itm.blockOfIron") //itm.blockOfIron
+        roastImg1.image = #imageLiteral(resourceName: "blc.blockOfIron") //blc.blockOfIron
+        roastImg2.image = #imageLiteral(resourceName: "blc.blockOfIron") //blc.blockOfIron
+        roastImg3.image = #imageLiteral(resourceName: "blc.blockOfIron") //blc.blockOfIron
         roastImg5.image = #imageLiteral(resourceName: "itm.ironIngot") //itm.ironIngot
         roastImg7.image = #imageLiteral(resourceName: "itm.ironIngot") //itm.ironIngot
         roastImg8.image = #imageLiteral(resourceName: "itm.ironIngot") //itm.ironIngot
