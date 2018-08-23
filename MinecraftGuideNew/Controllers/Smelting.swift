@@ -35,6 +35,7 @@ class Smelting: UIViewController {
     @IBAction func pushOnSteak(_ sender: Any) {
         
         reinitializeRoast()
+        
         roastImg.image = #imageLiteral(resourceName: "food.rawBeef") //food.rawBeef
         roastImgBig.image = #imageLiteral(resourceName: "food.steak") //food.steak
     }
@@ -42,6 +43,7 @@ class Smelting: UIViewController {
     @IBAction func pushOnCookedPorkchop(_ sender: Any) {
         
         reinitializeRoast()
+        
         roastImg.image = #imageLiteral(resourceName: "food.rawPorkchop") //food.rawPorkchop
         roastImgBig.image = #imageLiteral(resourceName: "food.cookedPorkchop") //food.cookedPorkchop
     }
