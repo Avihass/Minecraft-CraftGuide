@@ -1024,11 +1024,11 @@
             <objects>
                 <viewController title="Crafting" id="xji-mY-Ldw" customClass="Crafting" customModule="MinecraftGuideNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lF1-wj-HC0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backround" translatesAutoresizingMaskIntoConstraints="NO" id="FdL-xU-DXY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="craftRoast" translatesAutoresizingMaskIntoConstraints="NO" id="8on-Ue-C8c" customClass="ShadowedImageView" customModule="MinecraftGuideNew" customModuleProvider="target">
                                 <rect key="frame" x="13" y="72" width="349" height="162"/>
@@ -1037,10 +1037,10 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="muX-5e-3oP">
-                                <rect key="frame" x="0.0" y="242" width="375" height="758"/>
+                                <rect key="frame" x="0.0" y="242" width="375" height="2758"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efK-9d-tfE" userLabel="Contein View">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2758"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Building Blocks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LZ-TD-wGH">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
@@ -1066,7 +1066,10 @@
                                                     <constraint firstAttribute="width" secondItem="BoX-T3-Fez" secondAttribute="height" multiplier="1:1" id="9cz-rq-Gio"/>
                                                     <constraint firstAttribute="width" constant="96" id="whO-jn-2n4"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="itm.armorStand"/>
+                                                <state key="normal" backgroundImage="blc.oakStairs"/>
+                                                <connections>
+                                                    <action selector="pushOnWoodStairsWithSender:" destination="xji-mY-Ldw" eventType="touchUpInside" id="UCr-MZ-EKh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEJ-EA-mJi" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
                                                 <rect key="frame" x="271" y="40" width="96" height="96"/>
@@ -1074,7 +1077,10 @@
                                                     <constraint firstAttribute="width" constant="96" id="Inw-3V-7Tz"/>
                                                     <constraint firstAttribute="width" secondItem="vEJ-EA-mJi" secondAttribute="height" multiplier="1:1" id="Tyj-kQ-JPY"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="itm.bed"/>
+                                                <state key="normal" backgroundImage="blc.cobblestoneStairs"/>
+                                                <connections>
+                                                    <action selector="pushOnCobblestoneStairsWithSender:" destination="xji-mY-Ldw" eventType="touchUpInside" id="Wsc-z2-6i0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JmB-PH-E5Z" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
                                                 <rect key="frame" x="8" y="171" width="96" height="96"/>
@@ -1082,7 +1088,10 @@
                                                     <constraint firstAttribute="width" constant="96" id="lvl-4h-g0z"/>
                                                     <constraint firstAttribute="width" secondItem="JmB-PH-E5Z" secondAttribute="height" multiplier="1:1" id="oIq-c9-uKB"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="itm.bookshelf"/>
+                                                <state key="normal" backgroundImage="blc.brickStairs"/>
+                                                <connections>
+                                                    <action selector="pushOnBricksStairsWithSender:" destination="xji-mY-Ldw" eventType="touchUpInside" id="bIn-X6-GPP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdU-ih-CR5" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
                                                 <rect key="frame" x="139" y="171" width="96" height="96"/>
@@ -1172,105 +1181,105 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="itm.jukeBox"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ender Chest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUS-lc-BXU">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ender Chest" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUS-lc-BXU">
                                                 <rect key="frame" x="8" y="512" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furnace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZI-ha-U8S">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furnace" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZI-ha-U8S">
                                                 <rect key="frame" x="139" y="512" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Frame" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62j-iS-0Rq">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Frame" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62j-iS-0Rq">
                                                 <rect key="frame" x="271" y="512" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juke Box" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4g5-8h-Lir">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juke Box" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4g5-8h-Lir">
                                                 <rect key="frame" x="8" y="643" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Painting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeJ-OM-cqx">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Painting" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeJ-OM-cqx">
                                                 <rect key="frame" x="139" y="643" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wood Planks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRr-Fw-5nS">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wood Planks" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRr-Fw-5nS">
                                                 <rect key="frame" x="8" y="119" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Armor Stand" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2A5-7X-wjx">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wood Stairs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2A5-7X-wjx">
                                                 <rect key="frame" x="139" y="119" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmo-zD-W2L">
-                                                <rect key="frame" x="271" y="119" width="96" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cobblestone Stairs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmo-zD-W2L">
+                                                <rect key="frame" x="271" y="102.5" width="96" height="33.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bookshelf" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s48-KS-tvb">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bricks Stairs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s48-KS-tvb">
                                                 <rect key="frame" x="8" y="250" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brewing Stand" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCy-r5-CZE">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brewing Stand" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCy-r5-CZE">
                                                 <rect key="frame" x="139" y="250" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cauldron" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8a-xf-yX9">
-                                                <rect key="frame" x="271" y="250" width="96" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chiseled Red Sandstone" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8a-xf-yX9">
+                                                <rect key="frame" x="271" y="233.5" width="96" height="33.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csf-ma-jAA">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chest" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csf-ma-jAA">
                                                 <rect key="frame" x="8" y="381" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crafting Table" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eaf-bK-zAr">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crafting Table" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eaf-bK-zAr">
                                                 <rect key="frame" x="139" y="381" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enchantment Table" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td9-6G-oeX">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enchantment Table" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td9-6G-oeX">
                                                 <rect key="frame" x="271" y="364.5" width="96" height="33.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y85-qO-DOu">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y85-qO-DOu">
                                                 <rect key="frame" x="271" y="643" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1278,7 +1287,6 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="Thr-PA-yXY" firstAttribute="top" secondItem="Q6F-yo-dMC" secondAttribute="bottom" constant="35" id="09T-hW-m9L"/>
                                             <constraint firstItem="s48-KS-tvb" firstAttribute="trailing" secondItem="JmB-PH-E5Z" secondAttribute="trailing" id="09V-D8-pMy"/>
@@ -1297,6 +1305,7 @@
                                             <constraint firstItem="MUS-lc-BXU" firstAttribute="trailing" secondItem="Q6F-yo-dMC" secondAttribute="trailing" id="90c-lj-822"/>
                                             <constraint firstAttribute="trailing" secondItem="Z5k-S5-QgJ" secondAttribute="trailing" priority="750" constant="8" id="AdU-hz-ilG"/>
                                             <constraint firstItem="vg1-Hv-HDw" firstAttribute="top" secondItem="GdU-ih-CR5" secondAttribute="bottom" constant="35" id="BZp-bc-Fsh"/>
+                                            <constraint firstAttribute="bottom" secondItem="Thr-PA-yXY" secondAttribute="bottom" constant="2098" id="C95-W8-SN4"/>
                                             <constraint firstItem="IRr-Fw-5nS" firstAttribute="leading" secondItem="bPE-bO-Wsm" secondAttribute="leading" id="Dxe-lt-ims"/>
                                             <constraint firstAttribute="trailing" secondItem="9Ut-az-1wf" secondAttribute="trailing" priority="750" constant="8" id="ECt-Kb-IN9"/>
                                             <constraint firstItem="qZI-ha-U8S" firstAttribute="width" secondItem="0aO-hs-wbe" secondAttribute="width" id="ESq-Fr-YNW"/>
@@ -1342,6 +1351,7 @@
                                             <constraint firstItem="vg1-Hv-HDw" firstAttribute="leading" relation="lessThanOrEqual" secondItem="osc-cD-5by" secondAttribute="trailing" constant="35" id="a4f-gB-3oV"/>
                                             <constraint firstItem="62j-iS-0Rq" firstAttribute="bottom" secondItem="Z5k-S5-QgJ" secondAttribute="bottom" id="a8A-nG-Rg6"/>
                                             <constraint firstItem="JeJ-OM-cqx" firstAttribute="leading" secondItem="HDA-7P-ZnS" secondAttribute="leading" id="aJs-tH-NUO"/>
+                                            <constraint firstAttribute="bottom" secondItem="9Ut-az-1wf" secondAttribute="bottom" constant="2098" id="aYH-Mo-2DR"/>
                                             <constraint firstItem="FCy-r5-CZE" firstAttribute="width" secondItem="GdU-ih-CR5" secondAttribute="width" id="bsY-m2-Vde"/>
                                             <constraint firstItem="FCy-r5-CZE" firstAttribute="trailing" secondItem="GdU-ih-CR5" secondAttribute="trailing" id="c6Z-Ha-tS5"/>
                                             <constraint firstItem="2A5-7X-wjx" firstAttribute="width" secondItem="BoX-T3-Fez" secondAttribute="width" id="crF-Cm-dNB"/>
@@ -1379,6 +1389,7 @@
                                             <constraint firstItem="q8a-xf-yX9" firstAttribute="bottom" secondItem="evP-2l-QGR" secondAttribute="bottom" id="vkF-Kv-sjk"/>
                                             <constraint firstItem="s48-KS-tvb" firstAttribute="width" secondItem="JmB-PH-E5Z" secondAttribute="width" id="wFh-Dy-sd5"/>
                                             <constraint firstItem="IRr-Fw-5nS" firstAttribute="trailing" secondItem="bPE-bO-Wsm" secondAttribute="trailing" id="xFr-Ux-ZYJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="HDA-7P-ZnS" secondAttribute="bottom" constant="2098" id="xcu-Cl-ihK"/>
                                             <constraint firstItem="Eaf-bK-zAr" firstAttribute="width" secondItem="vg1-Hv-HDw" secondAttribute="width" id="yj2-5y-zoW"/>
                                             <constraint firstItem="Q6F-yo-dMC" firstAttribute="top" secondItem="osc-cD-5by" secondAttribute="bottom" constant="35" id="z9G-qP-RGX"/>
                                             <constraint firstItem="4g5-8h-Lir" firstAttribute="leading" secondItem="Thr-PA-yXY" secondAttribute="leading" id="zKc-3y-EIm"/>
@@ -1386,7 +1397,6 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="efK-9d-tfE" firstAttribute="width" secondItem="muX-5e-3oP" secondAttribute="width" id="IDX-Oy-luv"/>
                                     <constraint firstItem="efK-9d-tfE" firstAttribute="leading" secondItem="muX-5e-3oP" secondAttribute="leading" id="NXy-Rv-kmp"/>
@@ -1530,10 +1540,22 @@
                                             <constraint firstAttribute="width" secondItem="ICy-pb-s1T" secondAttribute="height" multiplier="1:1" id="tJJ-Go-Fo9"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wH-p0-QCO">
+                                        <rect key="frame" x="48" y="87" width="24" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="1wH-p0-QCO" firstAttribute="leading" secondItem="G59-ob-wtQ" secondAttribute="leading" priority="250" constant="48" id="0cd-iC-yK5"/>
+                                    <constraint firstItem="1wH-p0-QCO" firstAttribute="bottom" secondItem="ICy-pb-s1T" secondAttribute="bottom" id="AR8-PW-fRL"/>
+                                    <constraint firstItem="1wH-p0-QCO" firstAttribute="width" secondItem="G59-ob-wtQ" secondAttribute="height" multiplier="4:27" id="DC5-jy-RhY"/>
                                     <constraint firstAttribute="trailing" secondItem="ICy-pb-s1T" secondAttribute="trailing" id="LCE-s9-V13"/>
                                     <constraint firstItem="ICy-pb-s1T" firstAttribute="centerY" secondItem="G59-ob-wtQ" secondAttribute="centerY" id="Syb-vt-xHJ"/>
+                                    <constraint firstItem="1wH-p0-QCO" firstAttribute="trailing" secondItem="ICy-pb-s1T" secondAttribute="trailing" id="orZ-Ni-idq"/>
                                     <constraint firstItem="ICy-pb-s1T" firstAttribute="leading" secondItem="G59-ob-wtQ" secondAttribute="leading" id="yhy-Z3-1Nx"/>
                                 </constraints>
                             </view>
@@ -1563,8 +1585,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uMP-Qg-Ea7"/>
                     </view>
-                    <size key="freeformSize" width="375" height="1000"/>
+                    <size key="freeformSize" width="375" height="3000"/>
                     <connections>
+                        <outlet property="imgBigNum" destination="1wH-p0-QCO" id="5oP-2h-krJ"/>
                         <outlet property="roastImg1" destination="kdN-9g-8LZ" id="hDn-er-QIq"/>
                         <outlet property="roastImg2" destination="a6c-YP-gBf" id="2zx-3l-psD"/>
                         <outlet property="roastImg3" destination="W9M-gi-K3q" id="deZ-Rw-3ZQ"/>
@@ -1579,12 +1602,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ajj-2P-5E4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129" y="922"/>
+            <point key="canvasLocation" x="158" y="1820"/>
         </scene>
     </scenes>
     <resources>
         <image name="backround" width="375" height="667"/>
+        <image name="blc.brickStairs" width="144" height="144"/>
+        <image name="blc.cobblestoneStairs" width="144" height="144"/>
         <image name="blc.oakPlanks" width="144" height="144"/>
+        <image name="blc.oakStairs" width="144" height="144"/>
         <image name="brewing4home" width="150" height="150"/>
         <image name="capture-bloc.craft" width="203" height="216"/>
         <image name="capture-bloc.furnace" width="176" height="184"/>
@@ -1600,9 +1626,6 @@
         <image name="food.driedKelp" width="144" height="144"/>
         <image name="food.steak" width="144" height="144"/>
         <image name="itm.anvil" width="144" height="144"/>
-        <image name="itm.armorStand" width="48" height="48"/>
-        <image name="itm.bed" width="144" height="144"/>
-        <image name="itm.bookshelf" width="144" height="144"/>
         <image name="itm.brewingStand" width="48" height="48"/>
         <image name="itm.cauldron" width="48" height="48"/>
         <image name="itm.chest" width="144" height="144"/>

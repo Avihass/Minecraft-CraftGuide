@@ -21,6 +21,8 @@ class Crafting: UIViewController {
     @IBOutlet var roastImg9: UIImageView!
     @IBOutlet var roastImgBig: UIImageView!
     
+    @IBOutlet var imgBigNum: UILabel!
+    
     var i1 = 0
     var i2 = 0
     var i3 = 0
@@ -49,6 +51,8 @@ class Crafting: UIViewController {
         
         // initialize the Roast
         reinitializeRoast()
+        
+        imgBigNum.isHidden = true
     }
     
     // This function reset the Roast
@@ -64,6 +68,12 @@ class Crafting: UIViewController {
         roastImg8.image = nil
         roastImg9.image = nil
         roastImgBig.image = nil
+    }
+    
+    // This function show the imgBigNum and give a number
+    func showImgBigNum(withNum: String) {
+        imgBigNum.isHidden = false
+        imgBigNum.text = withNum
     }
     
     // This function change images like GIF with the timer
@@ -142,6 +152,17 @@ class Crafting: UIViewController {
         imgCollection8 = [#imageLiteral(resourceName: "nothing")]
         imgCollection9 = [#imageLiteral(resourceName: "nothing")]
         imgCollectionBig = [#imageLiteral(resourceName: "nothing")]
+        
+        i1 = 0
+        i2 = 0
+        i3 = 0
+        i4 = 0
+        i5 = 0
+        i6 = 0
+        i7 = 0
+        i8 = 0
+        i9 = 0
+        iBig = 0
     }
     
     func startTimer() {
@@ -164,6 +185,14 @@ class Crafting: UIViewController {
         stopTimer()
         reinitializeImgCollection()
         reinitializeRoast()
+        imgBigNum.isHidden = true
+        
+        imgCollection5[0] = #imageLiteral(resourceName: "blc.oakLog") //blc.oakLog
+        imgCollection5.append(#imageLiteral(resourceName: "blc.spruceLog")) //blc.spruceLog
+        imgCollection5.append(#imageLiteral(resourceName: "blc.birchLog")) //blc.birchLog
+        imgCollection5.append(#imageLiteral(resourceName: "blc.jungleLog")) //blc.jungleLog
+        imgCollection5.append(#imageLiteral(resourceName: "blc.acaciaLog")) //blc.acaciaLog
+        imgCollection5.append(#imageLiteral(resourceName: "blc.darkOakLog")) //blc.darkOakLog
         
         imgCollectionBig[0] = #imageLiteral(resourceName: "blc.oakPlanks") //blc.oakPlanks
         imgCollectionBig.append(#imageLiteral(resourceName: "blc.sprucePlanks")) //blc.sprucePlanks
@@ -175,6 +204,99 @@ class Crafting: UIViewController {
         startTimer()
         changeImg()
     }
+    
+    @IBAction func pushOnWoodStairs(sender: UIButton) {
+        
+        stopTimer()
+        reinitializeImgCollection()
+        reinitializeRoast()
+        showImgBigNum(withNum: "4")
+        
+        imgCollection3[0] = #imageLiteral(resourceName: "blc.oakPlanks") //blc.oakPlanks
+        imgCollection3.append(#imageLiteral(resourceName: "blc.sprucePlanks")) //blc.sprucePlanks
+        imgCollection3.append(#imageLiteral(resourceName: "blc.birchPlanks")) //blc.birchPlanks
+        imgCollection3.append(#imageLiteral(resourceName: "blc.junglePlanks")) //blc.junglePlanks
+        imgCollection3.append(#imageLiteral(resourceName: "blc.acaciaPlanks")) //blc.acaciaPlanks
+        imgCollection3.append(#imageLiteral(resourceName: "blc.darkPlanks")) //blc.darkPlanks
+        
+        imgCollection5[0] = #imageLiteral(resourceName: "blc.oakPlanks") //blc.oakPlanks
+        imgCollection5.append(#imageLiteral(resourceName: "blc.sprucePlanks")) //blc.sprucePlanks
+        imgCollection5.append(#imageLiteral(resourceName: "blc.birchPlanks")) //blc.birchPlanks
+        imgCollection5.append(#imageLiteral(resourceName: "blc.junglePlanks")) //blc.junglePlanks
+        imgCollection5.append(#imageLiteral(resourceName: "blc.acaciaPlanks")) //blc.acaciaPlanks
+        imgCollection5.append(#imageLiteral(resourceName: "blc.darkPlanks")) //blc.darkPlanks
+        
+        imgCollection6[0] = #imageLiteral(resourceName: "blc.oakPlanks") //blc.oakPlanks
+        imgCollection6.append(#imageLiteral(resourceName: "blc.sprucePlanks")) //blc.sprucePlanks
+        imgCollection6.append(#imageLiteral(resourceName: "blc.birchPlanks")) //blc.birchPlanks
+        imgCollection6.append(#imageLiteral(resourceName: "blc.junglePlanks")) //blc.junglePlanks
+        imgCollection6.append(#imageLiteral(resourceName: "blc.acaciaPlanks")) //blc.acaciaPlanks
+        imgCollection6.append(#imageLiteral(resourceName: "blc.darkPlanks")) //blc.darkPlanks
+        
+        imgCollection7[0] = #imageLiteral(resourceName: "blc.oakPlanks") //blc.oakPlanks
+        imgCollection7.append(#imageLiteral(resourceName: "blc.sprucePlanks")) //blc.sprucePlanks
+        imgCollection7.append(#imageLiteral(resourceName: "blc.birchPlanks")) //blc.birchPlanks
+        imgCollection7.append(#imageLiteral(resourceName: "blc.junglePlanks")) //blc.junglePlanks
+        imgCollection7.append(#imageLiteral(resourceName: "blc.acaciaPlanks")) //blc.acaciaPlanks
+        imgCollection7.append(#imageLiteral(resourceName: "blc.darkPlanks")) //blc.darkPlanks
+    
+        imgCollection8[0] = #imageLiteral(resourceName: "blc.oakPlanks") //blc.oakPlanks
+        imgCollection8.append(#imageLiteral(resourceName: "blc.sprucePlanks")) //blc.sprucePlanks
+        imgCollection8.append(#imageLiteral(resourceName: "blc.birchPlanks")) //blc.birchPlanks
+        imgCollection8.append(#imageLiteral(resourceName: "blc.junglePlanks")) //blc.junglePlanks
+        imgCollection8.append(#imageLiteral(resourceName: "blc.acaciaPlanks")) //blc.acaciaPlanks
+        imgCollection8.append(#imageLiteral(resourceName: "blc.darkPlanks")) //blc.darkPlanks
+        
+        imgCollection9[0] = #imageLiteral(resourceName: "blc.oakPlanks") //blc.oakPlanks
+        imgCollection9.append(#imageLiteral(resourceName: "blc.sprucePlanks")) //blc.sprucePlanks
+        imgCollection9.append(#imageLiteral(resourceName: "blc.birchPlanks")) //blc.birchPlanks
+        imgCollection9.append(#imageLiteral(resourceName: "blc.junglePlanks")) //blc.junglePlanks
+        imgCollection9.append(#imageLiteral(resourceName: "blc.acaciaPlanks")) //blc.acaciaPlanks
+        imgCollection9.append(#imageLiteral(resourceName: "blc.darkPlanks")) //blc.darkPlanks
+        
+        imgCollectionBig[0] = #imageLiteral(resourceName: "blc.oakStairs") //blc.oakStairs
+        imgCollectionBig.append(#imageLiteral(resourceName: "blc.spruceStairs")) //blc.spruceStairs
+        imgCollectionBig.append(#imageLiteral(resourceName: "blc.birchStairs")) //blc.birchStairs
+        imgCollectionBig.append(#imageLiteral(resourceName: "blc.jungleStairs")) //blc.jungleStairs
+        imgCollectionBig.append(#imageLiteral(resourceName: "blc.acaciaStairs")) //blc.acaciaStairs
+        imgCollectionBig.append(#imageLiteral(resourceName: "blc.darkOakStairs")) //blc.darkOakStairs
+        
+        startTimer()
+        changeImg()
+    }
+    
+    @IBAction func pushOnCobblestoneStairs(sender: UIButton) {
+        
+        stopTimer()
+        reinitializeImgCollection()
+        reinitializeRoast()
+        showImgBigNum(withNum: "4")
+        
+        roastImg3.image = #imageLiteral(resourceName: "blc.cobblestone") // blc.cobblestone
+        roastImg5.image = #imageLiteral(resourceName: "blc.cobblestone") // blc.cobblestone
+        roastImg6.image = #imageLiteral(resourceName: "blc.cobblestone") // blc.cobblestone
+        roastImg7.image = #imageLiteral(resourceName: "blc.cobblestone") // blc.cobblestone
+        roastImg8.image = #imageLiteral(resourceName: "blc.cobblestone") // blc.cobblestone
+        roastImg9.image = #imageLiteral(resourceName: "blc.cobblestone") // blc.cobblestone
+        roastImgBig.image = #imageLiteral(resourceName: "blc.cobblestoneStairs") // blc.cobblestoneStairs
+    }
+    
+    @IBAction func pushOnBricksStairs(sender: UIButton) {
+        
+        stopTimer()
+        reinitializeImgCollection()
+        reinitializeRoast()
+        showImgBigNum(withNum: "4")
+        
+        roastImg3.image = #imageLiteral(resourceName: "blc.bricks") // blc.bricks
+        roastImg5.image = #imageLiteral(resourceName: "blc.bricks") // blc.bricks
+        roastImg6.image = #imageLiteral(resourceName: "blc.bricks") // blc.bricks
+        roastImg7.image = #imageLiteral(resourceName: "blc.bricks") // blc.bricks
+        roastImg8.image = #imageLiteral(resourceName: "blc.bricks") // blc.bricks
+        roastImg9.image = #imageLiteral(resourceName: "blc.bricks") // blc.bricks
+        roastImgBig.image = #imageLiteral(resourceName: "blc.brickStairs") // blc.bricksStairs
+    }
+    
 }
 
 

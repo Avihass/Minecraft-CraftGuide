@@ -93,7 +93,7 @@ class Smelting: UIViewController {
     @IBAction func pushOnDriedKelp(_ sender: Any) {
         
         reinitializeRoast()
-        roastImg.image = #imageLiteral(resourceName: "food.rawBeef") //food.rawBeef
+        roastImg.image = #imageLiteral(resourceName: "food.kelp") //food.kelp
         roastImgBig.image = #imageLiteral(resourceName: "food.driedKelp") //food.driedKelp
     }
     
