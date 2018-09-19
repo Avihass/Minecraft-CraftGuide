@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Crafting: UIViewController {
+class BuildingAndDecoration: UIViewController {
     
     @IBOutlet var roastImg1: UIImageView!
     @IBOutlet var roastImg2: UIImageView!
@@ -295,6 +295,144 @@ class Crafting: UIViewController {
         roastImg8.image = #imageLiteral(resourceName: "blc.bricks") // blc.bricks
         roastImg9.image = #imageLiteral(resourceName: "blc.bricks") // blc.bricks
         roastImgBig.image = #imageLiteral(resourceName: "blc.brickStairs") // blc.bricksStairs
+    }
+    
+    @IBAction func pushOnStoneBrickStairs(sender: UIButton) {
+        
+        stopTimer()
+        reinitializeImgCollection()
+        reinitializeRoast()
+        showImgBigNum(withNum: "4")
+        
+        i3 += 2
+        i5 += 1
+        i6 += 3
+        i7 += 1
+        i8 += 3
+        i9 += 2
+        
+        imgCollection3[0] = #imageLiteral(resourceName: "blc.stoneBricks") //blc.stoneBricks
+        imgCollection3.append(#imageLiteral(resourceName: "blc.mossyStoneBricks")) //blc.mossyStoneBricks
+        imgCollection3.append(#imageLiteral(resourceName: "blc.crackedStoneBricks")) //blc.crackedStoneBricks
+        imgCollection3.append(#imageLiteral(resourceName: "blc.chiseledStoneBricks")) //blc.chiseledStoneBricks
+        
+        imgCollection5[0] = #imageLiteral(resourceName: "blc.stoneBricks") //blc.stoneBricks
+        imgCollection5.append(#imageLiteral(resourceName: "blc.mossyStoneBricks")) //blc.mossyStoneBricks
+        imgCollection5.append(#imageLiteral(resourceName: "blc.crackedStoneBricks")) //blc.crackedStoneBricks
+        imgCollection5.append(#imageLiteral(resourceName: "blc.chiseledStoneBricks")) //blc.chiseledStoneBricks
+        
+        imgCollection6[0] = #imageLiteral(resourceName: "blc.stoneBricks") //blc.stoneBricks
+        imgCollection6.append(#imageLiteral(resourceName: "blc.mossyStoneBricks")) //blc.mossyStoneBricks
+        imgCollection6.append(#imageLiteral(resourceName: "blc.crackedStoneBricks")) //blc.crackedStoneBricks
+        imgCollection6.append(#imageLiteral(resourceName: "blc.chiseledStoneBricks")) //blc.chiseledStoneBricks
+        
+        imgCollection7[0] = #imageLiteral(resourceName: "blc.stoneBricks") //blc.stoneBricks
+        imgCollection7.append(#imageLiteral(resourceName: "blc.mossyStoneBricks")) //blc.mossyStoneBricks
+        imgCollection7.append(#imageLiteral(resourceName: "blc.crackedStoneBricks")) //blc.crackedStoneBricks
+        imgCollection7.append(#imageLiteral(resourceName: "blc.chiseledStoneBricks")) //blc.chiseledStoneBricks
+        
+        imgCollection8[0] = #imageLiteral(resourceName: "blc.stoneBricks") //blc.stoneBricks
+        imgCollection8.append(#imageLiteral(resourceName: "blc.mossyStoneBricks")) //blc.mossyStoneBricks
+        imgCollection8.append(#imageLiteral(resourceName: "blc.crackedStoneBricks")) //blc.crackedStoneBricks
+        imgCollection8.append(#imageLiteral(resourceName: "blc.chiseledStoneBricks")) //blc.chiseledStoneBricks
+        
+        imgCollection9[0] = #imageLiteral(resourceName: "blc.stoneBricks") //blc.stoneBricks
+        imgCollection9.append(#imageLiteral(resourceName: "blc.mossyStoneBricks")) //blc.mossyStoneBricks
+        imgCollection9.append(#imageLiteral(resourceName: "blc.crackedStoneBricks")) //blc.crackedStoneBricks
+        imgCollection9.append(#imageLiteral(resourceName: "blc.chiseledStoneBricks")) //blc.chiseledStoneBricks
+        
+        imgCollectionBig[0] = #imageLiteral(resourceName: "blc.stoneBrickStairs") //blc.stoneBrickStairs
+        
+        startTimer()
+        changeImg()
+    }
+    
+    @IBAction func pushOnSandstoneStairs(sender: UIButton) {
+        
+        stopTimer()
+        reinitializeImgCollection()
+        reinitializeRoast()
+        showImgBigNum(withNum: "4")
+        
+        i3 += 2
+        i5 += 1
+        i6 += 3
+        i7 += 1
+        i8 += 3
+        i9 += 2
+        
+        imgCollection3[0] = #imageLiteral(resourceName: "blc.sandstone") //blc.sandstone
+        imgCollection3.append(#imageLiteral(resourceName: "blc.chiseledSandstone")) //blc.chiseledSandstone
+        imgCollection3.append(#imageLiteral(resourceName: "blc.smoothSandstone")) //blc.smoothSandstone
+        
+        imgCollection5[0] = #imageLiteral(resourceName: "blc.sandstone") //blc.sandstone
+        imgCollection5.append(#imageLiteral(resourceName: "blc.chiseledSandstone")) //blc.chiseledSandstone
+        imgCollection5.append(#imageLiteral(resourceName: "blc.smoothSandstone")) //blc.smoothSandstone
+        
+        imgCollection6[0] = #imageLiteral(resourceName: "blc.sandstone") //blc.sandstone
+        imgCollection6.append(#imageLiteral(resourceName: "blc.chiseledSandstone")) //blc.chiseledSandstone
+        imgCollection6.append(#imageLiteral(resourceName: "blc.smoothSandstone")) //blc.smoothSandstone
+        
+        imgCollection7[0] = #imageLiteral(resourceName: "blc.sandstone") //blc.sandstone
+        imgCollection7.append(#imageLiteral(resourceName: "blc.chiseledSandstone")) //blc.chiseledSandstone
+        imgCollection7.append(#imageLiteral(resourceName: "blc.smoothSandstone")) //blc.smoothSandstone
+        
+        imgCollection8[0] = #imageLiteral(resourceName: "blc.sandstone") //blc.sandstone
+        imgCollection8.append(#imageLiteral(resourceName: "blc.chiseledSandstone")) //blc.chiseledSandstone
+        imgCollection8.append(#imageLiteral(resourceName: "blc.smoothSandstone")) //blc.smoothSandstone
+        
+        imgCollection9[0] = #imageLiteral(resourceName: "blc.sandstone") //blc.sandstone
+        imgCollection9.append(#imageLiteral(resourceName: "blc.chiseledSandstone")) //blc.chiseledSandstone
+        imgCollection9.append(#imageLiteral(resourceName: "blc.smoothSandstone")) //blc.smoothSandstone
+        
+        imgCollectionBig[0] = #imageLiteral(resourceName: "blc.sandstoneStairs") //blc.sandstoneStairs
+        
+        startTimer()
+        changeImg()
+    }
+    
+    @IBAction func pushOnRedSandstoneStairs(sender: UIButton) {
+        
+        stopTimer()
+        reinitializeImgCollection()
+        reinitializeRoast()
+        showImgBigNum(withNum: "4")
+        
+        i3 += 2
+        i5 += 1
+        i6 += 3
+        i7 += 1
+        i8 += 3
+        i9 += 2
+        
+        imgCollection3[0] = #imageLiteral(resourceName: "blc.redSandstone") //blc.redSandstone
+        imgCollection3.append(#imageLiteral(resourceName: "blc.chiseledRedSandstone")) //blc.chiseledRedSandstone
+        imgCollection3.append(#imageLiteral(resourceName: "blc.smoothRedSandtone")) //blc.smoothRedSandstone
+        
+        imgCollection5[0] = #imageLiteral(resourceName: "blc.redSandstone") //blc.redSandstone
+        imgCollection5.append(#imageLiteral(resourceName: "blc.chiseledRedSandstone")) //blc.chiseledRedSandstone
+        imgCollection5.append(#imageLiteral(resourceName: "blc.smoothRedSandtone")) //blc.smoothRedSandstone
+        
+        imgCollection6[0] = #imageLiteral(resourceName: "blc.redSandstone") //blc.redSandstone
+        imgCollection6.append(#imageLiteral(resourceName: "blc.chiseledRedSandstone")) //blc.chiseledRedSandstone
+        imgCollection6.append(#imageLiteral(resourceName: "blc.smoothRedSandtone")) //blc.smoothRedSandstone
+        
+        imgCollection7[0] = #imageLiteral(resourceName: "blc.redSandstone") //blc.redSandstone
+        imgCollection7.append(#imageLiteral(resourceName: "blc.chiseledRedSandstone")) //blc.chiseledRedSandstone
+        imgCollection7.append(#imageLiteral(resourceName: "blc.smoothRedSandtone")) //blc.smoothRedSandstone
+        
+        imgCollection8[0] = #imageLiteral(resourceName: "blc.redSandstone") //blc.redSandstone
+        imgCollection8.append(#imageLiteral(resourceName: "blc.chiseledRedSandstone")) //blc.chiseledRedSandstone
+        imgCollection8.append(#imageLiteral(resourceName: "blc.smoothRedSandtone")) //blc.smoothRedSandstone
+        
+        imgCollection9[0] = #imageLiteral(resourceName: "blc.redSandstone") //blc.redSandstone
+        imgCollection9.append(#imageLiteral(resourceName: "blc.chiseledRedSandstone")) //blc.chiseledRedSandstone
+        imgCollection9.append(#imageLiteral(resourceName: "blc.smoothRedSandtone")) //blc.smoothRedSandstone
+        
+        imgCollectionBig[0] = #imageLiteral(resourceName: "blc.redSandstoneStairs") //blc.redSandstoneStairs
+        
+        startTimer()
+        changeImg()
     }
     
 }

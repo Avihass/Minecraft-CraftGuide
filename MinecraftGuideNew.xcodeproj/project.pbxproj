@@ -19,7 +19,7 @@
 		19F817CC21121CB800678125 /* labelOnButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F817CB21121CB800678125 /* labelOnButton.xib */; };
 		19F817D0211229E400678125 /* ShadowedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817CF211229E400678125 /* ShadowedButton.swift */; };
 		19F817D2211229F100678125 /* ShadowedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F817D1211229F100678125 /* ShadowedImageView.swift */; };
-		19FEBDC62120ADB100A6D441 /* Crafting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FEBDC52120ADB100A6D441 /* Crafting.swift */; };
+		19FEBDC62120ADB100A6D441 /* BuildingAndDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FEBDC52120ADB100A6D441 /* BuildingAndDecoration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		19F817CB21121CB800678125 /* labelOnButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = labelOnButton.xib; sourceTree = "<group>"; };
 		19F817CF211229E400678125 /* ShadowedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedButton.swift; sourceTree = "<group>"; };
 		19F817D1211229F100678125 /* ShadowedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedImageView.swift; sourceTree = "<group>"; };
-		19FEBDC52120ADB100A6D441 /* Crafting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crafting.swift; sourceTree = "<group>"; };
+		19FEBDC52120ADB100A6D441 /* BuildingAndDecoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingAndDecoration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				19F817972110D6A200678125 /* HomeController.swift */,
-				19FEBDC52120ADB100A6D441 /* Crafting.swift */,
+				19FEBDC52120ADB100A6D441 /* BuildingAndDecoration.swift */,
 				199B5EB72125A8D2007D1BB8 /* Smelting.swift */,
 			);
 			path = Controllers;
@@ -235,13 +235,16 @@
 				TargetAttributes = {
 					19F817912110D6A200678125 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					19F817A52110D6A300678125 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 19F817912110D6A200678125;
 					};
 					19F817B02110D6A400678125 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 19F817912110D6A200678125;
 					};
 				};
@@ -305,7 +308,7 @@
 				19F817982110D6A200678125 /* HomeController.swift in Sources */,
 				19F817962110D6A200678125 /* AppDelegate.swift in Sources */,
 				19F817D2211229F100678125 /* ShadowedImageView.swift in Sources */,
-				19FEBDC62120ADB100A6D441 /* Crafting.swift in Sources */,
+				19FEBDC62120ADB100A6D441 /* BuildingAndDecoration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +490,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AvidanHassine.MinecraftGuideNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -505,7 +508,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AvidanHassine.MinecraftGuideNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -525,7 +528,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AvidanHassine.MinecraftGuideNewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinecraftGuideNew.app/MinecraftGuideNew";
 			};
@@ -546,7 +549,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AvidanHassine.MinecraftGuideNewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinecraftGuideNew.app/MinecraftGuideNew";
 			};
@@ -566,7 +569,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AvidanHassine.MinecraftGuideNewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MinecraftGuideNew;
 			};
@@ -586,7 +589,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AvidanHassine.MinecraftGuideNewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MinecraftGuideNew;
 			};

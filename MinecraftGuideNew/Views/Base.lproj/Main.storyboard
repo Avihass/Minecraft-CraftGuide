@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uBb-lP-RQS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uBb-lP-RQS">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -46,7 +45,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Craft Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aa8-Ft-eEn">
-                                <rect key="frame" x="56" y="133" width="263" height="45"/>
+                                <rect key="frame" x="56.5" y="133" width="262.5" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Aa8-Ft-eEn" secondAttribute="height" multiplier="35:6" id="EvB-cC-ney"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="210" id="rFF-Gd-TMe"/>
@@ -72,18 +71,18 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIC-yR-OVx" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                        <rect key="frame" x="52" y="0.0" width="270" height="120"/>
+                                        <rect key="frame" x="52.5" y="0.0" width="270" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="MGN-s4-K3D"/>
                                             <constraint firstAttribute="width" constant="270" id="cWK-jf-H0f"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="capture-homeButtons.backround"/>
                                         <connections>
-                                            <segue destination="xji-mY-Ldw" kind="show" id="FoX-w3-XSs"/>
+                                            <segue destination="91X-n4-AEG" kind="show" id="it1-zg-CQa"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJ2-SO-K7b" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                        <rect key="frame" x="52" y="341" width="270" height="120"/>
+                                        <rect key="frame" x="52.5" y="341" width="270" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="6ia-aN-n01"/>
                                             <constraint firstAttribute="width" constant="270" id="Wkq-eb-EcZ"/>
@@ -91,7 +90,7 @@
                                         <state key="normal" backgroundImage="capture-homeButtons.backround"/>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brewing4home" translatesAutoresizingMaskIntoConstraints="NO" id="sim-pS-W5k">
-                                        <rect key="frame" x="137" y="341" width="100" height="100"/>
+                                        <rect key="frame" x="137.5" y="341" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="MCm-1E-RnD"/>
                                             <constraint firstAttribute="width" secondItem="sim-pS-W5k" secondAttribute="height" multiplier="1:1" id="cVF-Eb-p5a"/>
@@ -105,28 +104,28 @@
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="capture-bloc.craft" translatesAutoresizingMaskIntoConstraints="NO" id="MFg-97-1aX">
-                                        <rect key="frame" x="137" y="7" width="100" height="106"/>
+                                        <rect key="frame" x="137.5" y="7" width="100" height="106"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="MFg-97-1aX" secondAttribute="height" multiplier="203:216" id="BZ7-mb-413"/>
                                             <constraint firstAttribute="width" constant="100" id="cyy-lc-yJQ"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crafting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTD-nA-5rt">
-                                        <rect key="frame" x="52" y="90" width="270" height="30"/>
+                                        <rect key="frame" x="52.5" y="90" width="270" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smelting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sp0-O0-cef">
-                                        <rect key="frame" x="52.5" y="261" width="270" height="30"/>
+                                        <rect key="frame" x="52.5" y="260.5" width="270" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brewing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yw9-fy-6RA">
-                                        <rect key="frame" x="52" y="431" width="270" height="30"/>
+                                        <rect key="frame" x="52.5" y="431" width="270" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -212,7 +211,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1481"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPS-V8-TTE" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="453" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="453" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="8K1-Us-Hly"/>
                                                     <constraint firstAttribute="width" secondItem="yPS-V8-TTE" secondAttribute="height" multiplier="1:1" id="Rav-N3-PGr"/>
@@ -235,14 +234,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gx6-ak-kja">
-                                                <rect key="frame" x="139" y="532" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="532" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZ7-s4-Gy1" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="453" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="453" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="IGX-cm-1k8"/>
                                                     <constraint firstAttribute="width" secondItem="gZ7-s4-Gy1" secondAttribute="height" multiplier="1:1" id="eub-w4-gCG"/>
@@ -250,14 +249,14 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReU-wO-xqn">
-                                                <rect key="frame" x="8" y="532" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="532" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oE9-xd-pHb" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="584" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="584" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="SL7-u0-RsU"/>
                                                     <constraint firstAttribute="width" secondItem="oE9-xd-pHb" secondAttribute="height" multiplier="1:1" id="auo-nU-VWG"/>
@@ -265,14 +264,14 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ze0-si-DI4">
-                                                <rect key="frame" x="8" y="663" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="663" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFv-oK-aFy" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="584" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="584" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="yFv-oK-aFy" secondAttribute="height" multiplier="1:1" id="Ue1-Od-3Nn"/>
                                                     <constraint firstAttribute="width" constant="96" id="asD-hs-Lr0"/>
@@ -280,7 +279,7 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6V-GA-LzC">
-                                                <rect key="frame" x="139" y="663" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="663" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -302,7 +301,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jM-Bx-1j8" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="715" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="715" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="8jM-Bx-1j8" secondAttribute="height" multiplier="1:1" id="R7Q-Gi-l1W"/>
                                                     <constraint firstAttribute="width" constant="96" id="bAt-K7-Tom"/>
@@ -310,14 +309,14 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCc-ca-aVz">
-                                                <rect key="frame" x="8" y="794" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="794" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uos-A6-XeE" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="715" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="715" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="VfD-il-Pmc"/>
                                                     <constraint firstAttribute="width" secondItem="uos-A6-XeE" secondAttribute="height" multiplier="1:1" id="dcB-GK-ixa"/>
@@ -325,7 +324,7 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUT-qM-Lwa">
-                                                <rect key="frame" x="139" y="794" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="794" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -347,7 +346,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uw6-Y3-t0N" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="846" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="846" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Uw6-Y3-t0N" secondAttribute="height" multiplier="1:1" id="HB5-MR-bpE"/>
                                                     <constraint firstAttribute="width" constant="96" id="kR5-ME-R1f"/>
@@ -355,7 +354,7 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Pi-Zf-d7Q">
-                                                <rect key="frame" x="139" y="925" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="925" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -377,7 +376,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZH-VZ-y1Y" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="846" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="846" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="fZH-VZ-y1Y" secondAttribute="height" multiplier="1:1" id="Fja-jb-Uv0"/>
                                                     <constraint firstAttribute="width" constant="96" id="zhJ-7e-LnD"/>
@@ -385,14 +384,14 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HsB-F4-beL">
-                                                <rect key="frame" x="8" y="925" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="925" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SDs-EP-jCt" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="977" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="977" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="9lf-Uz-V7T"/>
                                                     <constraint firstAttribute="width" secondItem="SDs-EP-jCt" secondAttribute="height" multiplier="1:1" id="ONI-nc-j2b"/>
@@ -400,14 +399,14 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taf-rg-peq">
-                                                <rect key="frame" x="8" y="1056" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="1056" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKD-35-rch" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="977" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="977" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="mKD-35-rch" secondAttribute="height" multiplier="1:1" id="OJh-aR-qVu"/>
                                                     <constraint firstAttribute="width" constant="96" id="kav-QL-9zE"/>
@@ -415,7 +414,7 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPo-B4-N2v">
-                                                <rect key="frame" x="139" y="1056" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="1056" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -437,7 +436,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nal-As-Mcd" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="1108" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="1108" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Nal-As-Mcd" secondAttribute="height" multiplier="1:1" id="37U-Sl-9cO"/>
                                                     <constraint firstAttribute="width" constant="96" id="PMa-ai-zXe"/>
@@ -445,14 +444,14 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpI-G0-lUj">
-                                                <rect key="frame" x="8" y="1187" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="1187" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1w-Ew-XkB" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="1108" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="1108" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="OXM-gM-elS"/>
                                                     <constraint firstAttribute="width" secondItem="u1w-Ew-XkB" secondAttribute="height" multiplier="1:1" id="V3k-gF-r78"/>
@@ -460,7 +459,7 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbs-Sa-Qr4">
-                                                <rect key="frame" x="139" y="1187" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="1187" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -482,7 +481,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyX-dw-eRj" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="1239" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="1239" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="8Jb-Zv-Rfq"/>
                                                     <constraint firstAttribute="width" secondItem="MyX-dw-eRj" secondAttribute="height" multiplier="1:1" id="9cg-FV-9W6"/>
@@ -490,14 +489,14 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Na4-cl-mXL">
-                                                <rect key="frame" x="8" y="1318" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="1318" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TD-vc-0Ro" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="1239" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="1239" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="08h-aY-evv"/>
                                                     <constraint firstAttribute="width" secondItem="0TD-vc-0Ro" secondAttribute="height" multiplier="1:1" id="HE5-Av-VGx"/>
@@ -505,7 +504,7 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-jF-zDP">
-                                                <rect key="frame" x="139" y="1318" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="1318" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -527,7 +526,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osc-qs-P8X" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="1370" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="1370" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="osc-qs-P8X" secondAttribute="height" multiplier="1:1" id="gce-pT-nhv"/>
                                                     <constraint firstAttribute="width" constant="96" id="lZA-iC-pKh"/>
@@ -535,7 +534,7 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1J-f9-n4F">
-                                                <rect key="frame" x="139" y="1449" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="1449" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -557,7 +556,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiF-cf-EIV" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="1370" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="1370" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="OiF-cf-EIV" secondAttribute="height" multiplier="1:1" id="bcq-m4-Ght"/>
                                                     <constraint firstAttribute="width" constant="96" id="gX1-jl-PfZ"/>
@@ -565,14 +564,14 @@
                                                 <state key="normal" backgroundImage="itm.anvil"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anvil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ly8-Df-Q8R">
-                                                <rect key="frame" x="8" y="1449" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="1449" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QU9-cA-S6o" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="40" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="40" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="G4T-ke-8Ox"/>
                                                     <constraint firstAttribute="width" secondItem="QU9-cA-S6o" secondAttribute="height" multiplier="1:1" id="QFl-4b-SaI"/>
@@ -583,14 +582,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steak" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2J-Ez-78P">
-                                                <rect key="frame" x="8" y="119" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="119" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NjQ-ZJ-g28" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="40" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="40" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="NjQ-ZJ-g28" secondAttribute="height" multiplier="1:1" id="8xB-jv-AS3"/>
                                                     <constraint firstAttribute="width" constant="96" id="re5-X2-qMG"/>
@@ -601,7 +600,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked Porkchop" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPc-09-7P2">
-                                                <rect key="frame" x="139" y="102.5" width="96" height="33.5"/>
+                                                <rect key="frame" x="139.5" y="102.5" width="96" height="33.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -626,7 +625,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqL-bZ-jyU" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="171" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="171" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="AqL-bZ-jyU" secondAttribute="height" multiplier="1:1" id="SHr-Cb-PYd"/>
                                                     <constraint firstAttribute="width" constant="96" id="mZi-kB-lD8"/>
@@ -637,7 +636,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked Chicken" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoX-S9-rls">
-                                                <rect key="frame" x="8" y="233.5" width="96" height="33.5"/>
+                                                <rect key="frame" x="8.5" y="233.5" width="96" height="33.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -669,7 +668,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyY-eA-sFD" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="171" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="171" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="Wsk-Bj-Gny"/>
                                                     <constraint firstAttribute="width" secondItem="iyY-eA-sFD" secondAttribute="height" multiplier="1:1" id="jAo-wQ-AeJ"/>
@@ -680,7 +679,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked  Rabbit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5K2-Fa-cCf">
-                                                <rect key="frame" x="139" y="233.5" width="96" height="33.5"/>
+                                                <rect key="frame" x="139.5" y="233.5" width="96" height="33.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -701,7 +700,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNF-NO-wdH" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="302" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="302" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="b9L-Da-eas"/>
                                                     <constraint firstAttribute="width" secondItem="aNF-NO-wdH" secondAttribute="height" multiplier="1:1" id="ddA-5A-9Nm"/>
@@ -712,7 +711,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooked Salmon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cw-5T-Jde">
-                                                <rect key="frame" x="8" y="364.5" width="96" height="33.5"/>
+                                                <rect key="frame" x="8.5" y="364.5" width="96" height="33.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -737,7 +736,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKt-iW-1bI" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="302" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="302" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="tKt-iW-1bI" secondAttribute="height" multiplier="1:1" id="UyJ-lj-zRB"/>
                                                     <constraint firstAttribute="width" constant="96" id="kGu-EH-rbn"/>
@@ -748,7 +747,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baked Potato" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tT-r0-PU1">
-                                                <rect key="frame" x="139" y="381" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="381" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1017,12 +1016,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ivc-b8-v7C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="864.79999999999995" y="1253.5232383808097"/>
+            <point key="canvasLocation" x="-1177" y="1254"/>
         </scene>
-        <!--Crafting-->
+        <!--Building & Decoration-->
         <scene sceneID="t6S-6K-m0l">
             <objects>
-                <viewController title="Crafting" id="xji-mY-Ldw" customClass="Crafting" customModule="MinecraftGuideNew" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Building &amp; Decoration" id="xji-mY-Ldw" customClass="BuildingAndDecoration" customModule="MinecraftGuideNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lF1-wj-HC0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1050,7 +1049,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPE-bO-Wsm" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="40" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="40" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="8Kk-BI-Xuq"/>
                                                     <constraint firstAttribute="width" secondItem="bPE-bO-Wsm" secondAttribute="height" multiplier="1:1" id="O5G-P5-wLL"/>
@@ -1061,7 +1060,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoX-T3-Fez" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="40" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="40" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="BoX-T3-Fez" secondAttribute="height" multiplier="1:1" id="9cz-rq-Gio"/>
                                                     <constraint firstAttribute="width" constant="96" id="whO-jn-2n4"/>
@@ -1083,7 +1082,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JmB-PH-E5Z" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="171" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="171" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="lvl-4h-g0z"/>
                                                     <constraint firstAttribute="width" secondItem="JmB-PH-E5Z" secondAttribute="height" multiplier="1:1" id="oIq-c9-uKB"/>
@@ -1094,15 +1093,18 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdU-ih-CR5" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="171" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="171" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="GdU-ih-CR5" secondAttribute="height" multiplier="1:1" id="MAl-Hh-XWI"/>
                                                     <constraint firstAttribute="width" constant="96" id="kgT-cK-DKX"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="itm.brewingStand"/>
+                                                <state key="normal" backgroundImage="blc.stoneBrickStairs"/>
+                                                <connections>
+                                                    <action selector="pushOnStoneBrickStairsWithSender:" destination="xji-mY-Ldw" eventType="touchUpInside" id="LBK-zz-kjk"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vg1-Hv-HDw" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="302" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="302" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="top-IO-3QK"/>
                                                     <constraint firstAttribute="width" secondItem="vg1-Hv-HDw" secondAttribute="height" multiplier="1:1" id="yFF-FM-gee"/>
@@ -1123,18 +1125,24 @@
                                                     <constraint firstAttribute="width" constant="96" id="cbN-SH-h7Z"/>
                                                     <constraint firstAttribute="width" secondItem="evP-2l-QGR" secondAttribute="height" multiplier="1:1" id="pVH-cB-S1M"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="itm.cauldron"/>
+                                                <state key="normal" backgroundImage="blc.sandstoneStairs"/>
+                                                <connections>
+                                                    <action selector="pushOnSandstoneStairsWithSender:" destination="xji-mY-Ldw" eventType="touchUpInside" id="QbL-8D-NmL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osc-cD-5by" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="302" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="302" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="osc-cD-5by" secondAttribute="height" multiplier="1:1" id="7J3-79-C3k"/>
                                                     <constraint firstAttribute="width" constant="96" id="Axc-c3-V3T"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="itm.chest"/>
+                                                <state key="normal" backgroundImage="blc.redSandstoneStairs"/>
+                                                <connections>
+                                                    <action selector="pushOnRedSandstoneStairsWithSender:" destination="xji-mY-Ldw" eventType="touchUpInside" id="RbA-60-yKX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6F-yo-dMC" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="433" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="433" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Q6F-yo-dMC" secondAttribute="height" multiplier="1:1" id="MyG-Fk-4nZ"/>
                                                     <constraint firstAttribute="width" constant="96" id="S0A-U1-56D"/>
@@ -1142,7 +1150,7 @@
                                                 <state key="normal" backgroundImage="itm.enderChest"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aO-hs-wbe" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="433" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="433" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="0aO-hs-wbe" secondAttribute="height" multiplier="1:1" id="Ssr-n7-W0S"/>
                                                     <constraint firstAttribute="width" constant="96" id="lxh-gY-atp"/>
@@ -1158,7 +1166,7 @@
                                                 <state key="normal" backgroundImage="itm.itemFrame"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDA-7P-ZnS" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="139" y="564" width="96" height="96"/>
+                                                <rect key="frame" x="139.5" y="564" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="HDA-7P-ZnS" secondAttribute="height" multiplier="1:1" id="4HX-CX-eGI"/>
                                                     <constraint firstAttribute="width" constant="96" id="pU4-5j-eRY"/>
@@ -1174,7 +1182,7 @@
                                                 <state key="normal" backgroundImage="itm.sign"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thr-PA-yXY" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="564" width="96" height="96"/>
+                                                <rect key="frame" x="8.5" y="564" width="96" height="96"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="IcF-f1-g1S"/>
                                                     <constraint firstAttribute="width" secondItem="Thr-PA-yXY" secondAttribute="height" multiplier="1:1" id="suN-8X-Fga"/>
@@ -1182,14 +1190,14 @@
                                                 <state key="normal" backgroundImage="itm.jukeBox"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ender Chest" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUS-lc-BXU">
-                                                <rect key="frame" x="8" y="512" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="512" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furnace" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZI-ha-U8S">
-                                                <rect key="frame" x="139" y="512" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="512" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1203,28 +1211,28 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juke Box" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4g5-8h-Lir">
-                                                <rect key="frame" x="8" y="643" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="643" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Painting" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeJ-OM-cqx">
-                                                <rect key="frame" x="139" y="643" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="643" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wood Planks" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRr-Fw-5nS">
-                                                <rect key="frame" x="8" y="119" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="119" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wood Stairs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2A5-7X-wjx">
-                                                <rect key="frame" x="139" y="119" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="119" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1238,35 +1246,35 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bricks Stairs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s48-KS-tvb">
-                                                <rect key="frame" x="8" y="250" width="96" height="17"/>
+                                                <rect key="frame" x="8.5" y="250" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brewing Stand" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCy-r5-CZE">
-                                                <rect key="frame" x="139" y="250" width="96" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stone Brick Stairs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCy-r5-CZE">
+                                                <rect key="frame" x="139.5" y="233.5" width="96" height="33.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chiseled Red Sandstone" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8a-xf-yX9">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sandstone Stairs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8a-xf-yX9">
                                                 <rect key="frame" x="271" y="233.5" width="96" height="33.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chest" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csf-ma-jAA">
-                                                <rect key="frame" x="8" y="381" width="96" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Sandstone Stairs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csf-ma-jAA">
+                                                <rect key="frame" x="8.5" y="366.5" width="96" height="31.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crafting Table" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eaf-bK-zAr">
-                                                <rect key="frame" x="139" y="381" width="96" height="17"/>
+                                                <rect key="frame" x="139.5" y="381" width="96" height="17"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1602,7 +1610,136 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ajj-2P-5E4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="158" y="1820"/>
+            <point key="canvasLocation" x="633" y="1052"/>
+        </scene>
+        <!--Crafting-->
+        <scene sceneID="w2M-Yf-d2J">
+            <objects>
+                <viewController title="Crafting" id="91X-n4-AEG" customClass="ViewController" customModule="MinecraftGuideNew" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="313-MO-cLr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backround" translatesAutoresizingMaskIntoConstraints="NO" id="WyD-YN-HSQ" userLabel="backround">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RrV-Kw-Ecz" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
+                                <rect key="frame" x="52.5" y="231" width="270" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RrV-Kw-Ecz" secondAttribute="height" multiplier="9:4" id="gb8-Fd-XT2"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="capture-homeButtons.backround"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQd-9Z-Qhb" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
+                                <rect key="frame" x="52.5" y="379" width="270" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jQd-9Z-Qhb" secondAttribute="height" multiplier="9:4" id="acM-RE-RF7"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="capture-homeButtons.backround"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transportation &amp; redstone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRI-xR-Vv6">
+                                <rect key="frame" x="52.5" y="469" width="270" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ZMz-Ef-eLY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tools &amp; Combat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smN-uM-dJ6">
+                                <rect key="frame" x="52.5" y="321" width="270" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hFq-np-Ymp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ctr-KH-yng" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
+                                <rect key="frame" x="52.5" y="527" width="270" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ctr-KH-yng" secondAttribute="height" multiplier="9:4" id="Jzg-Q2-hZD"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="capture-homeButtons.backround"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLY-pW-uGi">
+                                <rect key="frame" x="52.5" y="617" width="270" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="t9n-ok-ds9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Yx-GY-Ew9" customClass="ShadowedButton" customModule="MinecraftGuideNew" customModuleProvider="target">
+                                <rect key="frame" x="52.5" y="84" width="270" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5Yx-GY-Ew9" secondAttribute="height" multiplier="9:4" id="X8z-vY-nhN"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="270" id="zdY-G9-zTz"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="capture-homeButtons.backround"/>
+                                <connections>
+                                    <segue destination="xji-mY-Ldw" kind="show" id="jCe-3Z-OK9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Building &amp; Decoration blocks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53N-Fh-mRg">
+                                <rect key="frame" x="52.5" y="174" width="270" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4qd-wD-xzt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WyD-YN-HSQ" firstAttribute="leading" secondItem="313-MO-cLr" secondAttribute="leading" id="4do-z8-dnY"/>
+                            <constraint firstItem="RrV-Kw-Ecz" firstAttribute="top" relation="greaterThanOrEqual" secondItem="5Yx-GY-Ew9" secondAttribute="bottom" constant="15" id="4nk-WD-mEy"/>
+                            <constraint firstItem="53N-Fh-mRg" firstAttribute="leading" secondItem="5Yx-GY-Ew9" secondAttribute="leading" id="5aU-Bg-BAd"/>
+                            <constraint firstItem="nRI-xR-Vv6" firstAttribute="bottom" secondItem="jQd-9Z-Qhb" secondAttribute="bottom" id="62o-pN-5fS"/>
+                            <constraint firstItem="53N-Fh-mRg" firstAttribute="trailing" secondItem="5Yx-GY-Ew9" secondAttribute="trailing" id="AWx-19-38g"/>
+                            <constraint firstItem="nRI-xR-Vv6" firstAttribute="trailing" secondItem="jQd-9Z-Qhb" secondAttribute="trailing" id="Ac7-jt-rtH"/>
+                            <constraint firstItem="53N-Fh-mRg" firstAttribute="bottom" secondItem="5Yx-GY-Ew9" secondAttribute="bottom" id="Bv9-t1-ywL"/>
+                            <constraint firstItem="jQd-9Z-Qhb" firstAttribute="top" relation="lessThanOrEqual" secondItem="RrV-Kw-Ecz" secondAttribute="bottom" constant="28" id="D9N-4N-TiS"/>
+                            <constraint firstAttribute="trailing" secondItem="WyD-YN-HSQ" secondAttribute="trailing" id="DPw-On-LLx"/>
+                            <constraint firstItem="jQd-9Z-Qhb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="RrV-Kw-Ecz" secondAttribute="bottom" constant="15" id="E6p-FJ-JjC"/>
+                            <constraint firstItem="RrV-Kw-Ecz" firstAttribute="centerX" secondItem="313-MO-cLr" secondAttribute="centerX" id="F1J-e0-mck"/>
+                            <constraint firstItem="Ctr-KH-yng" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jQd-9Z-Qhb" secondAttribute="bottom" constant="15" id="GeQ-Ub-ijt"/>
+                            <constraint firstItem="smN-uM-dJ6" firstAttribute="bottom" secondItem="RrV-Kw-Ecz" secondAttribute="bottom" id="Kj9-4i-ayk"/>
+                            <constraint firstItem="jQd-9Z-Qhb" firstAttribute="centerX" secondItem="313-MO-cLr" secondAttribute="centerX" id="ToB-GG-f9Z"/>
+                            <constraint firstItem="5Yx-GY-Ew9" firstAttribute="top" relation="lessThanOrEqual" secondItem="e8M-ns-HXe" secondAttribute="top" priority="740" constant="20" id="UX6-Ke-m1k"/>
+                            <constraint firstItem="rLY-pW-uGi" firstAttribute="trailing" secondItem="Ctr-KH-yng" secondAttribute="trailing" id="V6K-q1-a4D"/>
+                            <constraint firstItem="e8M-ns-HXe" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Ctr-KH-yng" secondAttribute="bottom" constant="10" id="W76-Dw-xDI"/>
+                            <constraint firstItem="rLY-pW-uGi" firstAttribute="bottom" secondItem="Ctr-KH-yng" secondAttribute="bottom" id="WT4-3S-ycT"/>
+                            <constraint firstItem="RrV-Kw-Ecz" firstAttribute="centerY" secondItem="313-MO-cLr" secondAttribute="centerY" constant="-42.5" id="WVd-mx-1wt"/>
+                            <constraint firstItem="5Yx-GY-Ew9" firstAttribute="width" secondItem="RrV-Kw-Ecz" secondAttribute="height" multiplier="9:4" id="Yjh-Xi-3dS"/>
+                            <constraint firstAttribute="bottom" secondItem="WyD-YN-HSQ" secondAttribute="bottom" id="YyF-xg-Zcx"/>
+                            <constraint firstItem="rLY-pW-uGi" firstAttribute="leading" secondItem="Ctr-KH-yng" secondAttribute="leading" id="a68-gJ-MdJ"/>
+                            <constraint firstItem="Ctr-KH-yng" firstAttribute="centerX" secondItem="313-MO-cLr" secondAttribute="centerX" id="eE0-J7-7g5"/>
+                            <constraint firstItem="smN-uM-dJ6" firstAttribute="trailing" secondItem="RrV-Kw-Ecz" secondAttribute="trailing" id="ixI-tj-N4L"/>
+                            <constraint firstItem="5Yx-GY-Ew9" firstAttribute="centerX" secondItem="313-MO-cLr" secondAttribute="centerX" id="jaf-Qj-QVA"/>
+                            <constraint firstItem="nRI-xR-Vv6" firstAttribute="leading" secondItem="jQd-9Z-Qhb" secondAttribute="leading" id="lPy-Hk-ONP"/>
+                            <constraint firstItem="WyD-YN-HSQ" firstAttribute="top" secondItem="313-MO-cLr" secondAttribute="top" id="nAL-T5-FaJ"/>
+                            <constraint firstItem="e8M-ns-HXe" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="Ctr-KH-yng" secondAttribute="bottom" priority="750" constant="20" id="ngK-dr-G2e"/>
+                            <constraint firstItem="smN-uM-dJ6" firstAttribute="leading" secondItem="RrV-Kw-Ecz" secondAttribute="leading" id="nmS-10-GZu"/>
+                            <constraint firstItem="RrV-Kw-Ecz" firstAttribute="top" relation="lessThanOrEqual" secondItem="5Yx-GY-Ew9" secondAttribute="bottom" constant="27" id="rLb-cn-kuu"/>
+                            <constraint firstItem="5Yx-GY-Ew9" firstAttribute="top" relation="greaterThanOrEqual" secondItem="e8M-ns-HXe" secondAttribute="top" constant="10" id="rOL-aJ-HUz"/>
+                            <constraint firstItem="RrV-Kw-Ecz" firstAttribute="width" secondItem="jQd-9Z-Qhb" secondAttribute="height" multiplier="9:4" id="sf4-Ou-wuT"/>
+                            <constraint firstItem="Ctr-KH-yng" firstAttribute="top" relation="lessThanOrEqual" secondItem="jQd-9Z-Qhb" secondAttribute="bottom" constant="28" id="w3X-HW-YjL"/>
+                            <constraint firstItem="jQd-9Z-Qhb" firstAttribute="width" secondItem="Ctr-KH-yng" secondAttribute="height" multiplier="9:4" id="zWZ-Ra-u7b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e8M-ns-HXe"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Crafting" id="dqJ-fL-Ki3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sIi-nn-r6E" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414" y="-774"/>
         </scene>
     </scenes>
     <resources>
@@ -1611,6 +1748,9 @@
         <image name="blc.cobblestoneStairs" width="144" height="144"/>
         <image name="blc.oakPlanks" width="144" height="144"/>
         <image name="blc.oakStairs" width="144" height="144"/>
+        <image name="blc.redSandstoneStairs" width="144" height="144"/>
+        <image name="blc.sandstoneStairs" width="144" height="144"/>
+        <image name="blc.stoneBrickStairs" width="144" height="144"/>
         <image name="brewing4home" width="150" height="150"/>
         <image name="capture-bloc.craft" width="203" height="216"/>
         <image name="capture-bloc.furnace" width="176" height="184"/>
@@ -1626,9 +1766,6 @@
         <image name="food.driedKelp" width="144" height="144"/>
         <image name="food.steak" width="144" height="144"/>
         <image name="itm.anvil" width="144" height="144"/>
-        <image name="itm.brewingStand" width="48" height="48"/>
-        <image name="itm.cauldron" width="48" height="48"/>
-        <image name="itm.chest" width="144" height="144"/>
         <image name="itm.craftingTable" width="144" height="144"/>
         <image name="itm.enchantmentTable" width="144" height="144"/>
         <image name="itm.enderChest" width="144" height="144"/>
